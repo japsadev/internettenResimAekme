@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3799852A395869004CA162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3799842A395869004CA162 /* AppDelegate.swift */; };
+		3C3799872A395869004CA162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3799862A395869004CA162 /* SceneDelegate.swift */; };
+		3C3799892A395869004CA162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3799882A395869004CA162 /* ViewController.swift */; };
+		3C37998C2A395869004CA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C37998A2A395869004CA162 /* Main.storyboard */; };
+		3C37998E2A39586B004CA162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C37998D2A39586B004CA162 /* Assets.xcassets */; };
+		3C3799912A39586B004CA162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C37998F2A39586B004CA162 /* LaunchScreen.storyboard */; };
+		3C37999C2A39586B004CA162 /* internettenResimAlmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C37999B2A39586B004CA162 /* internettenResimAlmaTests.swift */; };
+		3C3799A62A39586B004CA162 /* internettenResimAlmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3799A52A39586B004CA162 /* internettenResimAlmaUITests.swift */; };
+		3C3799A82A39586B004CA162 /* internettenResimAlmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3799A72A39586B004CA162 /* internettenResimAlmaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C3799982A39586B004CA162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3799792A395869004CA162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3799802A395869004CA162;
+			remoteInfo = internettenResimAlma;
+		};
+		3C3799A22A39586B004CA162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3799792A395869004CA162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3799802A395869004CA162;
+			remoteInfo = internettenResimAlma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C3799812A395869004CA162 /* internettenResimAlma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internettenResimAlma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3799842A395869004CA162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C3799862A395869004CA162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C3799882A395869004CA162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C37998B2A395869004CA162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C37998D2A39586B004CA162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3799902A39586B004CA162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C3799922A39586B004CA162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3799972A39586B004CA162 /* internettenResimAlmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = internettenResimAlmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C37999B2A39586B004CA162 /* internettenResimAlmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internettenResimAlmaTests.swift; sourceTree = "<group>"; };
+		3C3799A12A39586B004CA162 /* internettenResimAlmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = internettenResimAlmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3799A52A39586B004CA162 /* internettenResimAlmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internettenResimAlmaUITests.swift; sourceTree = "<group>"; };
+		3C3799A72A39586B004CA162 /* internettenResimAlmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internettenResimAlmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C37997E2A395869004CA162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3799942A39586B004CA162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C37999E2A39586B004CA162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3799782A395869004CA162 = {
+			isa = PBXGroup;
+			children = (
+				3C3799832A395869004CA162 /* internettenResimAlma */,
+				3C37999A2A39586B004CA162 /* internettenResimAlmaTests */,
+				3C3799A42A39586B004CA162 /* internettenResimAlmaUITests */,
+				3C3799822A395869004CA162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3799822A395869004CA162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C3799812A395869004CA162 /* internettenResimAlma.app */,
+				3C3799972A39586B004CA162 /* internettenResimAlmaTests.xctest */,
+				3C3799A12A39586B004CA162 /* internettenResimAlmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3799832A395869004CA162 /* internettenResimAlma */ = {
+			isa = PBXGroup;
+			children = (
+				3C3799842A395869004CA162 /* AppDelegate.swift */,
+				3C3799862A395869004CA162 /* SceneDelegate.swift */,
+				3C3799882A395869004CA162 /* ViewController.swift */,
+				3C37998A2A395869004CA162 /* Main.storyboard */,
+				3C37998D2A39586B004CA162 /* Assets.xcassets */,
+				3C37998F2A39586B004CA162 /* LaunchScreen.storyboard */,
+				3C3799922A39586B004CA162 /* Info.plist */,
+			);
+			path = internettenResimAlma;
+			sourceTree = "<group>";
+		};
+		3C37999A2A39586B004CA162 /* internettenResimAlmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C37999B2A39586B004CA162 /* internettenResimAlmaTests.swift */,
+			);
+			path = internettenResimAlmaTests;
+			sourceTree = "<group>";
+		};
+		3C3799A42A39586B004CA162 /* internettenResimAlmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C3799A52A39586B004CA162 /* internettenResimAlmaUITests.swift */,
+				3C3799A72A39586B004CA162 /* internettenResimAlmaUITestsLaunchTests.swift */,
+			);
+			path = internettenResimAlmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C3799802A395869004CA162 /* internettenResimAlma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3799AB2A39586B004CA162 /* Build configuration list for PBXNativeTarget "internettenResimAlma" */;
+			buildPhases = (
+				3C37997D2A395869004CA162 /* Sources */,
+				3C37997E2A395869004CA162 /* Frameworks */,
+				3C37997F2A395869004CA162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = internettenResimAlma;
+			productName = internettenResimAlma;
+			productReference = 3C3799812A395869004CA162 /* internettenResimAlma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C3799962A39586B004CA162 /* internettenResimAlmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3799AE2A39586B004CA162 /* Build configuration list for PBXNativeTarget "internettenResimAlmaTests" */;
+			buildPhases = (
+				3C3799932A39586B004CA162 /* Sources */,
+				3C3799942A39586B004CA162 /* Frameworks */,
+				3C3799952A39586B004CA162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3799992A39586B004CA162 /* PBXTargetDependency */,
+			);
+			name = internettenResimAlmaTests;
+			productName = internettenResimAlmaTests;
+			productReference = 3C3799972A39586B004CA162 /* internettenResimAlmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C3799A02A39586B004CA162 /* internettenResimAlmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3799B12A39586B004CA162 /* Build configuration list for PBXNativeTarget "internettenResimAlmaUITests" */;
+			buildPhases = (
+				3C37999D2A39586B004CA162 /* Sources */,
+				3C37999E2A39586B004CA162 /* Frameworks */,
+				3C37999F2A39586B004CA162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3799A32A39586B004CA162 /* PBXTargetDependency */,
+			);
+			name = internettenResimAlmaUITests;
+			productName = internettenResimAlmaUITests;
+			productReference = 3C3799A12A39586B004CA162 /* internettenResimAlmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C3799792A395869004CA162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3C3799802A395869004CA162 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3C3799962A39586B004CA162 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3C3799802A395869004CA162;
+					};
+					3C3799A02A39586B004CA162 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3C3799802A395869004CA162;
+					};
+				};
+			};
+			buildConfigurationList = 3C37997C2A395869004CA162 /* Build configuration list for PBXProject "internettenResimAlma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C3799782A395869004CA162;
+			productRefGroup = 3C3799822A395869004CA162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C3799802A395869004CA162 /* internettenResimAlma */,
+				3C3799962A39586B004CA162 /* internettenResimAlmaTests */,
+				3C3799A02A39586B004CA162 /* internettenResimAlmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C37997F2A395869004CA162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3799912A39586B004CA162 /* LaunchScreen.storyboard in Resources */,
+				3C37998E2A39586B004CA162 /* Assets.xcassets in Resources */,
+				3C37998C2A395869004CA162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3799952A39586B004CA162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C37999F2A39586B004CA162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C37997D2A395869004CA162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3799892A395869004CA162 /* ViewController.swift in Sources */,
+				3C3799852A395869004CA162 /* AppDelegate.swift in Sources */,
+				3C3799872A395869004CA162 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3799932A39586B004CA162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C37999C2A39586B004CA162 /* internettenResimAlmaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C37999D2A39586B004CA162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3799A62A39586B004CA162 /* internettenResimAlmaUITests.swift in Sources */,
+				3C3799A82A39586B004CA162 /* internettenResimAlmaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3799992A39586B004CA162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3799802A395869004CA162 /* internettenResimAlma */;
+			targetProxy = 3C3799982A39586B004CA162 /* PBXContainerItemProxy */;
+		};
+		3C3799A32A39586B004CA162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3799802A395869004CA162 /* internettenResimAlma */;
+			targetProxy = 3C3799A22A39586B004CA162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C37998A2A395869004CA162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C37998B2A395869004CA162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C37998F2A39586B004CA162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3799902A39586B004CA162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C3799A92A39586B004CA162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C3799AA2A39586B004CA162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C3799AC2A39586B004CA162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = internettenResimAlma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.internettenResimAlma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C3799AD2A39586B004CA162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = internettenResimAlma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.internettenResimAlma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C3799AF2A39586B004CA162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.internettenResimAlmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/internettenResimAlma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/internettenResimAlma";
+			};
+			name = Debug;
+		};
+		3C3799B02A39586B004CA162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.internettenResimAlmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/internettenResimAlma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/internettenResimAlma";
+			};
+			name = Release;
+		};
+		3C3799B22A39586B004CA162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.internettenResimAlmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = internettenResimAlma;
+			};
+			name = Debug;
+		};
+		3C3799B32A39586B004CA162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kami.internettenResimAlmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = internettenResimAlma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C37997C2A395869004CA162 /* Build configuration list for PBXProject "internettenResimAlma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3799A92A39586B004CA162 /* Debug */,
+				3C3799AA2A39586B004CA162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3799AB2A39586B004CA162 /* Build configuration list for PBXNativeTarget "internettenResimAlma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3799AC2A39586B004CA162 /* Debug */,
+				3C3799AD2A39586B004CA162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3799AE2A39586B004CA162 /* Build configuration list for PBXNativeTarget "internettenResimAlmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3799AF2A39586B004CA162 /* Debug */,
+				3C3799B02A39586B004CA162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3799B12A39586B004CA162 /* Build configuration list for PBXNativeTarget "internettenResimAlmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3799B22A39586B004CA162 /* Debug */,
+				3C3799B32A39586B004CA162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C3799792A395869004CA162 /* Project object */;
+}
